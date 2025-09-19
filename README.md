@@ -1,29 +1,25 @@
-# gemini-api
+# Manga Prompt Agent & Gemini API Integration
 
-A Python project for working with the Gemini API.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+A Python toolkit to create, customize, and refine prompts for manga generation, with support for leveraging the Gemini API as part of your prompt engineering workflow.
 
 ## Overview
 
-This repository provides Python tools and modules to interact with the Gemini API. Use it to integrate Gemini-powered features into your applications or scripts.
+This repository is designed for manga creators and AI artists who want to systematically generate high-quality prompts for manga (or anime-style) image generation. It provides modules to help you:
+
+- Compose, structure, and refine prompts specifically for manga agents.
+- Optionally use Google’s Gemini API to enhance or expand prompt ideas.
+- Prepare prompts for direct use in diffusion models or other generative AI pipelines.
 
 ## Features
 
-- Easy-to-use Python interface for Gemini API
-- Modular and extensible codebase
-- 100% Python
+- Tools for manga/anime prompt creation and editing
+- Gemini API integration for smart prompt enhancement (optional)
+- Workflow to prepare prompts for manga diffusion models
+- 100% Python, easy to integrate into your existing projects
 
 ## Installation
 
-Clone this repository and install dependencies:
+Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/senghuyjr11/gemini-api.git
@@ -33,25 +29,20 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Get your Gemini API key from: https://aistudio.google.com/app/apikey  
-2. Create a `.env` file in the root of this project and add your API key:
-
+1. (Optional) Get a Gemini API key from: https://aistudio.google.com/app/apikey  
+2. Create a `.env` file and add your key:
     ```env
     GOOGLE_API_KEY=your_gemini_api_key_here
     ```
-
-   Replace your_gemini_api_key_here with your actual Gemini API key.
+3. Use this toolkit to:
+    - Build and refine manga prompts.
+    - (Optionally) Leverage Gemini to generate or expand ideas.
+    - Export prompts for input into manga diffusion models or your preferred generative tools.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for review.
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -am 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Pull requests are welcome!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License (see [LICENSE](LICENSE)).
